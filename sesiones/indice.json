@@ -1,0 +1,12 @@
+{
+ "semanas": [
+  {
+   "lunes": "2026-10-12",
+   "semana": 1,
+   "fechas": "12-16 oct 2026",
+   "meso": 1,
+   "fase_nombre": "Base",
+   "archivo": "sesiones/2026-10-12.json"
+  }
+ ]
+}
