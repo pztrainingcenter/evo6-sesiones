@@ -7,6 +7,14 @@
    "meso": 1,
    "fase_nombre": "Base",
    "archivo": "sesiones/2026-10-12.json"
+  },
+  {
+   "lunes": "2026-10-19",
+   "semana": 2,
+   "fechas": "19-23 oct 2026",
+   "meso": 1,
+   "fase_nombre": "Acumulación",
+   "archivo": "sesiones/2026-10-19.json"
   }
  ]
 }
