@@ -36,7 +36,8 @@
      "seg": null,
      "kg": true,
      "medida": "reps",
-     "posta": 1
+     "posta": 1,
+     "impl": "barra"
     },
     {
      "id": "p2e1",
@@ -53,7 +54,8 @@
      "seg": null,
      "kg": true,
      "medida": "reps",
-     "posta": 2
+     "posta": 2,
+     "impl": "multipower"
     },
     {
      "id": "p6e1",
@@ -70,7 +72,8 @@
      "seg": null,
      "kg": true,
      "medida": "reps",
-     "posta": 6
+     "posta": 6,
+     "impl": "barra"
     }
    ],
    "postas": [
@@ -81,17 +84,44 @@
       {
        "ej": "Sentadilla trasera",
        "dosis": "6 reps · RIR 2",
-       "clave": true
+       "clave": true,
+       "id": "p1e1",
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        6,
+        6
+       ],
+       "rir": 2,
+       "seg": null,
+       "impl": "barra"
       },
       {
        "ej": "Salto vertical con contramovimiento",
        "dosis": "5 reps",
-       "clave": false
+       "clave": false,
+       "id": "p1e2",
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        5,
+        5
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "barra"
       },
       {
        "ej": "Face pull isométrico en polea",
        "dosis": "25''",
-       "clave": false
+       "clave": false,
+       "id": "p1e3",
+       "kg": true,
+       "medida": "seg",
+       "reps": null,
+       "rir": null,
+       "seg": 25,
+       "impl": "polea"
       }
      ]
     },
@@ -102,17 +132,44 @@
       {
        "ej": "Press de suelo en multipower",
        "dosis": "6 reps · RIR 2",
-       "clave": true
+       "clave": true,
+       "id": "p2e1",
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        6,
+        6
+       ],
+       "rir": 2,
+       "seg": null,
+       "impl": "multipower"
       },
       {
        "ej": "Flexión pliométrica",
        "dosis": "5 reps",
-       "clave": false
+       "clave": false,
+       "id": "p2e2",
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        5,
+        5
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "multipower"
       },
       {
        "ej": "Isométrico de gemelo a 1 pierna",
        "dosis": "12''+12''",
-       "clave": false
+       "clave": false,
+       "id": "p2e3",
+       "kg": false,
+       "medida": "seg",
+       "reps": null,
+       "rir": null,
+       "seg": 12,
+       "impl": "multipower"
       }
      ]
     },
@@ -123,17 +180,44 @@
       {
        "ej": "Peso muerto rumano con 2 KB",
        "dosis": "6 reps · RIR 2",
-       "clave": false
+       "clave": false,
+       "id": "p3e1",
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        6,
+        6
+       ],
+       "rir": 2,
+       "seg": null,
+       "impl": "kb2"
       },
       {
        "ej": "Swing ruso con KB",
        "dosis": "5 explosivos",
-       "clave": false
+       "clave": false,
+       "id": "p3e2",
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        5,
+        5
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "kb"
       },
       {
        "ej": "Bottoms-up hold con KB",
        "dosis": "12''+12''",
-       "clave": false
+       "clave": false,
+       "id": "p3e3",
+       "kg": true,
+       "medida": "seg",
+       "reps": null,
+       "rir": null,
+       "seg": 12,
+       "impl": "kb"
       }
      ]
     },
@@ -144,17 +228,44 @@
       {
        "ej": "Dominada estricta",
        "dosis": "6 reps",
-       "clave": false
+       "clave": false,
+       "id": "p4e1",
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        6,
+        6
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "otro"
       },
       {
        "ej": "Y en TRX explosiva",
        "dosis": "5 reps",
-       "clave": false
+       "clave": false,
+       "id": "p4e2",
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        5,
+        5
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "otro"
       },
       {
        "ej": "Sentadilla isométrica con TRX",
        "dosis": "25''",
-       "clave": false
+       "clave": false,
+       "id": "p4e3",
+       "kg": false,
+       "medida": "seg",
+       "reps": null,
+       "rir": null,
+       "seg": 25,
+       "impl": "otro"
       }
      ]
     },
@@ -165,17 +276,44 @@
       {
        "ej": "Slam ball / Lanzamiento de wall ball",
        "dosis": "6 reps",
-       "clave": false
+       "clave": false,
+       "id": "p5e1",
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        6,
+        6
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "bola"
       },
       {
        "ej": "Burpee con salto",
        "dosis": "5 reps",
-       "clave": false
+       "clave": false,
+       "id": "p5e2",
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        5,
+        5
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "otro"
       },
       {
        "ej": "Plancha lateral",
        "dosis": "12''+12''",
-       "clave": false
+       "clave": false,
+       "id": "p5e3",
+       "kg": false,
+       "medida": "seg",
+       "reps": null,
+       "rir": null,
+       "seg": 12,
+       "impl": "otro"
       }
      ]
     },
@@ -186,17 +324,44 @@
       {
        "ej": "Hip thrust con barra",
        "dosis": "6 reps · RIR 2",
-       "clave": true
+       "clave": true,
+       "id": "p6e1",
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        6,
+        6
+       ],
+       "rir": 2,
+       "seg": null,
+       "impl": "barra"
       },
       {
        "ej": "Salto horizontal a pies juntos",
        "dosis": "5 reps",
-       "clave": false
+       "clave": false,
+       "id": "p6e2",
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        5,
+        5
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "barra"
       },
       {
        "ej": "Plancha alta con arrastre de disco",
        "dosis": "25''",
-       "clave": false
+       "clave": false,
+       "id": "p6e3",
+       "kg": false,
+       "medida": "seg",
+       "reps": null,
+       "rir": null,
+       "seg": 25,
+       "impl": "barra"
       }
      ]
     }
@@ -229,7 +394,8 @@
      "seg": 25,
      "kg": false,
      "medida": "cal",
-     "posta": 2
+     "posta": 2,
+     "impl": "otro"
     },
     {
      "id": "p3e1",
@@ -246,7 +412,8 @@
      "seg": null,
      "kg": true,
      "medida": "reps",
-     "posta": 3
+     "posta": 3,
+     "impl": "mancuernas"
     }
    ],
    "postas": [
@@ -257,12 +424,26 @@
       {
        "ej": "Battle rope (variante cantada)",
        "dosis": "20''",
-       "clave": false
+       "clave": false,
+       "id": "p1e1",
+       "kg": false,
+       "medida": "seg",
+       "reps": null,
+       "rir": null,
+       "seg": 20,
+       "impl": "otro"
       },
       {
        "ej": "Zancada inversa alterna",
        "dosis": "hasta el final",
-       "clave": false
+       "clave": false,
+       "id": "p1e2",
+       "kg": false,
+       "medida": "reps",
+       "reps": null,
+       "rir": null,
+       "seg": null,
+       "impl": "otro"
       }
      ]
     },
@@ -273,12 +454,26 @@
       {
        "ej": "Superman isométrico",
        "dosis": "15''",
-       "clave": false
+       "clave": false,
+       "id": "p2e1",
+       "kg": false,
+       "medida": "seg",
+       "reps": null,
+       "rir": null,
+       "seg": 15,
+       "impl": "otro"
       },
       {
        "ej": "Air bike sprint",
        "dosis": "25''",
-       "clave": true
+       "clave": true,
+       "id": "p2e2",
+       "kg": false,
+       "medida": "cal",
+       "reps": null,
+       "rir": null,
+       "seg": 25,
+       "impl": "otro"
       }
      ]
     },
@@ -289,12 +484,32 @@
       {
        "ej": "Push press con mancuernas",
        "dosis": "8 reps",
-       "clave": true
+       "clave": true,
+       "id": "p3e1",
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        8,
+        8
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "mancuernas"
       },
       {
        "ej": "Elevación frontal alterna",
        "dosis": "5 reps c/lado",
-       "clave": false
+       "clave": false,
+       "id": "p3e2",
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        5,
+        5
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "mancuernas"
       }
      ]
     },
@@ -305,12 +520,29 @@
       {
        "ej": "Step-up alterno al cajón",
        "dosis": "6 reps c/lado",
-       "clave": false
+       "clave": false,
+       "id": "p4e1",
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        6,
+        6
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "otro"
       },
       {
        "ej": "Fondos de tríceps en banco",
        "dosis": "hasta el final",
-       "clave": false
+       "clave": false,
+       "id": "p4e2",
+       "kg": false,
+       "medida": "reps",
+       "reps": null,
+       "rir": null,
+       "seg": null,
+       "impl": "otro"
       }
      ]
     },
@@ -321,12 +553,26 @@
       {
        "ej": "Desplazamiento lateral entre conos 5 m",
        "dosis": "20''",
-       "clave": false
+       "clave": false,
+       "id": "p5e1",
+       "kg": false,
+       "medida": "reps",
+       "reps": null,
+       "rir": null,
+       "seg": 20,
+       "impl": "otro"
       },
       {
        "ej": "Escalador",
        "dosis": "hasta el final",
-       "clave": false
+       "clave": false,
+       "id": "p5e2",
+       "kg": false,
+       "medida": "reps",
+       "reps": null,
+       "rir": null,
+       "seg": null,
+       "impl": "otro"
       }
      ]
     },
@@ -337,12 +583,32 @@
       {
        "ej": "Pullover en polea alta",
        "dosis": "8 reps",
-       "clave": false
+       "clave": false,
+       "id": "p6e1",
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        8,
+        8
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "polea"
       },
       {
        "ej": "Remo en polea baja",
        "dosis": "8 reps",
-       "clave": false
+       "clave": false,
+       "id": "p6e2",
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        8,
+        8
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "polea"
       }
      ]
     }
@@ -378,7 +644,8 @@
      "seg": null,
      "kg": true,
      "medida": "reps",
-     "posta": 1
+     "posta": 1,
+     "impl": "barra"
     },
     {
      "id": "p2e1",
@@ -395,7 +662,8 @@
      "seg": null,
      "kg": true,
      "medida": "reps",
-     "posta": 2
+     "posta": 2,
+     "impl": "multipower"
     },
     {
      "id": "p5e2",
@@ -412,7 +680,8 @@
      "seg": null,
      "kg": true,
      "medida": "reps",
-     "posta": 5
+     "posta": 5,
+     "impl": "mancuernas"
     }
    ],
    "postas": [
@@ -423,17 +692,47 @@
       {
        "ej": "Peso muerto rumano con barra",
        "dosis": "4 reps · bajada 4''",
-       "clave": true
+       "clave": true,
+       "id": "p1e1",
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        4,
+        4
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "barra"
       },
       {
        "ej": "Jalón al pecho en polea alta",
        "dosis": "5 reps · subida 4''",
-       "clave": false
+       "clave": false,
+       "id": "p1e2",
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        5,
+        5
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "polea"
       },
       {
        "ej": "Pallof press con vuelta lenta",
        "dosis": "4 reps c/lado",
-       "clave": false
+       "clave": false,
+       "id": "p1e3",
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        4,
+        4
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "polea"
       }
      ]
     },
@@ -444,17 +743,47 @@
       {
        "ej": "Sentadilla en multipower",
        "dosis": "4 reps · bajada 4''",
-       "clave": true
+       "clave": true,
+       "id": "p2e1",
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        4,
+        4
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "multipower"
       },
       {
        "ej": "Flexión con manos en la barra",
        "dosis": "4 reps · bajada 4''",
-       "clave": false
+       "clave": false,
+       "id": "p2e2",
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        4,
+        4
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "barra"
       },
       {
        "ej": "Dead bug lento",
        "dosis": "4 reps c/lado",
-       "clave": false
+       "clave": false,
+       "id": "p2e3",
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        4,
+        4
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "multipower"
       }
      ]
     },
@@ -465,17 +794,47 @@
       {
        "ej": "Peso muerto a 1 pierna con KB",
        "dosis": "3 reps c/lado · bajada 4''",
-       "clave": false
+       "clave": false,
+       "id": "p3e1",
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        3,
+        3
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "kb"
       },
       {
        "ej": "Press de suelo con KB a 1 mano",
        "dosis": "3 reps c/lado · bajada 4''",
-       "clave": false
+       "clave": false,
+       "id": "p3e2",
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        3,
+        3
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "kb"
       },
       {
        "ej": "Windmill con KB",
        "dosis": "2 reps c/lado",
-       "clave": false
+       "clave": false,
+       "id": "p3e3",
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        2,
+        2
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "kb"
       }
      ]
     },
@@ -486,17 +845,47 @@
       {
        "ej": "Curl femoral en TRX",
        "dosis": "5 reps · vuelta en 4''",
-       "clave": false
+       "clave": false,
+       "id": "p4e1",
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        5,
+        5
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "otro"
       },
       {
        "ej": "Dominada excéntrica",
        "dosis": "3 reps · bajada 4''",
-       "clave": false
+       "clave": false,
+       "id": "p4e2",
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        3,
+        3
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "otro"
       },
       {
        "ej": "Pike en TRX",
        "dosis": "5 reps · bajada lenta",
-       "clave": false
+       "clave": false,
+       "id": "p4e3",
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        5,
+        5
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "otro"
       }
      ]
     },
@@ -507,17 +896,47 @@
       {
        "ej": "Hip thrust a 1 pierna en banco",
        "dosis": "3 reps c/lado · bajada 4''",
-       "clave": false
+       "clave": false,
+       "id": "p5e1",
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        3,
+        3
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "mancuerna"
       },
       {
        "ej": "Press con mancuernas en banco",
        "dosis": "4 reps · bajada 4''",
-       "clave": true
+       "clave": true,
+       "id": "p5e2",
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        4,
+        4
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "mancuernas"
       },
       {
        "ej": "Elevación de piernas en banco",
        "dosis": "4 reps · bajada 4''",
-       "clave": false
+       "clave": false,
+       "id": "p5e3",
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        4,
+        4
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "mancuernas"
       }
      ]
     },
@@ -528,17 +947,47 @@
       {
        "ej": "Buenos días con banda",
        "dosis": "6 reps · bajada 4''",
-       "clave": false
+       "clave": false,
+       "id": "p6e1",
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        6,
+        6
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "otro"
       },
       {
        "ej": "Curl de bíceps con banda",
        "dosis": "6 reps · bajada 4''",
-       "clave": false
+       "clave": false,
+       "id": "p6e2",
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        6,
+        6
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "otro"
       },
       {
        "ej": "Bird dog lento",
        "dosis": "3 reps c/lado",
-       "clave": false
+       "clave": false,
+       "id": "p6e3",
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        3,
+        3
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "otro"
       }
      ]
     }
@@ -571,7 +1020,8 @@
      "seg": 40,
      "kg": true,
      "medida": "reps",
-     "posta": 4
+     "posta": 4,
+     "impl": "kb"
     },
     {
      "id": "p6e2",
@@ -585,7 +1035,8 @@
      "seg": 40,
      "kg": true,
      "medida": "reps",
-     "posta": 6
+     "posta": 6,
+     "impl": "mancuerna"
     }
    ],
    "postas": [
@@ -596,17 +1047,38 @@
       {
        "ej": "Saltos laterales reactivos sobre valla",
        "dosis": "40''",
-       "clave": false
+       "clave": false,
+       "id": "p1e1",
+       "kg": false,
+       "medida": "reps",
+       "reps": null,
+       "rir": null,
+       "seg": 40,
+       "impl": "otro"
       },
       {
        "ej": "Gateo de oso entre conos",
        "dosis": "40''",
-       "clave": false
+       "clave": false,
+       "id": "p1e2",
+       "kg": false,
+       "medida": "reps",
+       "reps": null,
+       "rir": null,
+       "seg": 40,
+       "impl": "otro"
       },
       {
        "ej": "Sprint 5-10-5",
        "dosis": "40''",
-       "clave": false
+       "clave": false,
+       "id": "p1e3",
+       "kg": false,
+       "medida": "reps",
+       "reps": null,
+       "rir": null,
+       "seg": 40,
+       "impl": "otro"
       }
      ]
     },
@@ -617,17 +1089,38 @@
       {
        "ej": "Salto de patinador",
        "dosis": "40''",
-       "clave": false
+       "clave": false,
+       "id": "p2e1",
+       "kg": false,
+       "medida": "reps",
+       "reps": null,
+       "rir": null,
+       "seg": 40,
+       "impl": "otro"
       },
       {
        "ej": "Air bike 10'' fuerte / 10'' suave",
        "dosis": "40''",
-       "clave": false
+       "clave": false,
+       "id": "p2e2",
+       "kg": false,
+       "medida": "cal",
+       "reps": null,
+       "rir": null,
+       "seg": 40,
+       "impl": "otro"
       },
       {
        "ej": "Plancha alta a baja",
        "dosis": "40''",
-       "clave": false
+       "clave": false,
+       "id": "p2e3",
+       "kg": false,
+       "medida": "seg",
+       "reps": null,
+       "rir": null,
+       "seg": 40,
+       "impl": "otro"
       }
      ]
     },
@@ -638,17 +1131,38 @@
       {
        "ej": "Zancada con salto",
        "dosis": "40''",
-       "clave": false
+       "clave": false,
+       "id": "p3e1",
+       "kg": false,
+       "medida": "reps",
+       "reps": null,
+       "rir": null,
+       "seg": 40,
+       "impl": "otro"
       },
       {
        "ej": "Battle rope serpiente lateral",
        "dosis": "40''",
-       "clave": false
+       "clave": false,
+       "id": "p3e2",
+       "kg": false,
+       "medida": "seg",
+       "reps": null,
+       "rir": null,
+       "seg": 40,
+       "impl": "otro"
       },
       {
        "ej": "Escalador cruzado",
        "dosis": "40''",
-       "clave": false
+       "clave": false,
+       "id": "p3e3",
+       "kg": false,
+       "medida": "reps",
+       "reps": null,
+       "rir": null,
+       "seg": 40,
+       "impl": "otro"
       }
      ]
     },
@@ -659,17 +1173,38 @@
       {
        "ej": "Arranque con KB a 1 mano",
        "dosis": "40'' · alterna",
-       "clave": true
+       "clave": true,
+       "id": "p4e1",
+       "kg": true,
+       "medida": "reps",
+       "reps": null,
+       "rir": null,
+       "seg": 40,
+       "impl": "kb"
       },
       {
        "ej": "Paseo del granjero con KB",
        "dosis": "40''",
-       "clave": false
+       "clave": false,
+       "id": "p4e2",
+       "kg": true,
+       "medida": "seg",
+       "reps": null,
+       "rir": null,
+       "seg": 40,
+       "impl": "kb"
       },
       {
        "ej": "Halo con KB",
        "dosis": "40''",
-       "clave": false
+       "clave": false,
+       "id": "p4e3",
+       "kg": true,
+       "medida": "reps",
+       "reps": null,
+       "rir": null,
+       "seg": 40,
+       "impl": "kb"
       }
      ]
     },
@@ -680,17 +1215,38 @@
       {
        "ej": "Remo invertido explosivo en multipower",
        "dosis": "40''",
-       "clave": false
+       "clave": false,
+       "id": "p5e1",
+       "kg": false,
+       "medida": "reps",
+       "reps": null,
+       "rir": null,
+       "seg": 40,
+       "impl": "multipower"
       },
       {
        "ej": "Saltos de tobillo (pogo)",
        "dosis": "40''",
-       "clave": false
+       "clave": false,
+       "id": "p5e2",
+       "kg": false,
+       "medida": "reps",
+       "reps": null,
+       "rir": null,
+       "seg": 40,
+       "impl": "multipower"
       },
       {
        "ej": "Hollow rock",
        "dosis": "40''",
-       "clave": false
+       "clave": false,
+       "id": "p5e3",
+       "kg": false,
+       "medida": "seg",
+       "reps": null,
+       "rir": null,
+       "seg": 40,
+       "impl": "multipower"
       }
      ]
     },
@@ -701,17 +1257,38 @@
       {
        "ej": "Salto al cajón",
        "dosis": "40''",
-       "clave": false
+       "clave": false,
+       "id": "p6e1",
+       "kg": false,
+       "medida": "reps",
+       "reps": null,
+       "rir": null,
+       "seg": 40,
+       "impl": "mancuernas"
       },
       {
        "ej": "Push press con mancuerna a 1 mano",
        "dosis": "40'' · alterna",
-       "clave": true
+       "clave": true,
+       "id": "p6e2",
+       "kg": true,
+       "medida": "reps",
+       "reps": null,
+       "rir": null,
+       "seg": 40,
+       "impl": "mancuerna"
       },
       {
        "ej": "Remo renegado con mancuernas",
        "dosis": "40''",
-       "clave": false
+       "clave": false,
+       "id": "p6e3",
+       "kg": true,
+       "medida": "reps",
+       "reps": null,
+       "rir": null,
+       "seg": 40,
+       "impl": "mancuernas"
       }
      ]
     }
