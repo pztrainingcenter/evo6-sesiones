@@ -15,6 +15,14 @@
    "meso": 1,
    "fase_nombre": "Acumulación",
    "archivo": "sesiones/2026-10-19.json"
+  },
+  {
+   "lunes": "2026-10-26",
+   "semana": 3,
+   "fechas": "26-30 oct 2026",
+   "meso": 1,
+   "fase_nombre": "Intensificación",
+   "archivo": "sesiones/2026-10-26.json"
   }
  ]
 }
