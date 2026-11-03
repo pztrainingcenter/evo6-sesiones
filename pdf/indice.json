@@ -1,0 +1,18 @@
+{
+ "semanas": [
+  {
+   "lunes": null,
+   "semana": null,
+   "fechas": "",
+   "carpeta": "Material EVO-6",
+   "archivos": [
+    {
+     "nombre": "PZ_EVO6_tarjeta_progreso.pdf",
+     "ruta": "pdf/material/PZ_EVO6_tarjeta_progreso.pdf",
+     "sha256": "571655761e4ffbfa3c7ce0c9edc221d7f18d7091e08ac6e67000b376ccc8c7f0",
+     "bytes": 225205
+    }
+   ]
+  }
+ ]
+}
