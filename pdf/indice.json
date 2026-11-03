@@ -13,6 +13,62 @@
      "bytes": 225205
     }
    ]
+  },
+  {
+   "lunes": "2026-10-12",
+   "semana": 1,
+   "fechas": "12-16 oct 2026",
+   "carpeta": "2026-10-12 · Semana 1 · 12-16 oct 2026",
+   "archivos": [
+    {
+     "nombre": "EVO6_fichas_entrenador_13-16oct2026.pdf",
+     "ruta": "pdf/2026-10-12/EVO6_fichas_entrenador_13-16oct2026.pdf",
+     "sha256": "ded749ef1f0a5a70e7442f37b83df4796b69e155d4efcc56edd292f17007fb96",
+     "bytes": 403244
+    }
+   ]
+  },
+  {
+   "lunes": "2026-10-19",
+   "semana": 2,
+   "fechas": "19-23 oct 2026",
+   "carpeta": "2026-10-19 · Semana 2 · 19-23 oct 2026",
+   "archivos": [
+    {
+     "nombre": "EVO6_fichas_entrenador_19-23oct2026.pdf",
+     "ruta": "pdf/2026-10-19/EVO6_fichas_entrenador_19-23oct2026.pdf",
+     "sha256": "4faac1ff83ea7f990bbd3c90afb05ca72e7fff959d8e2c0a99b9aba3310389ff",
+     "bytes": 437853
+    }
+   ]
+  },
+  {
+   "lunes": "2026-10-26",
+   "semana": 3,
+   "fechas": "26-30 oct 2026",
+   "carpeta": "2026-10-26 · Semana 3 · 26-30 oct 2026",
+   "archivos": [
+    {
+     "nombre": "EVO6_fichas_entrenador_26-30oct2026.pdf",
+     "ruta": "pdf/2026-10-26/EVO6_fichas_entrenador_26-30oct2026.pdf",
+     "sha256": "f151d089e727395c21b18d36177a7f79455cf3c05a69b999e1a15753291e28d5",
+     "bytes": 461292
+    }
+   ]
+  },
+  {
+   "lunes": "2026-11-02",
+   "semana": 4,
+   "fechas": "2-6 nov 2026",
+   "carpeta": "2026-11-02 · Semana 4 · 2-6 nov 2026",
+   "archivos": [
+    {
+     "nombre": "EVO6_fichas_entrenador_2-6nov2026.pdf",
+     "ruta": "pdf/2026-11-02/EVO6_fichas_entrenador_2-6nov2026.pdf",
+     "sha256": "f6f830bc6648ee1885fbcbe2b9188de6e632fb235af6aae2d8f0061c138a6b41",
+     "bytes": 452968
+    }
+   ]
   }
  ]
 }
