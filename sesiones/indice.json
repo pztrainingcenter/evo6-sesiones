@@ -31,6 +31,14 @@
    "meso": 1,
    "fase_nombre": "Descarga y aprendizaje",
    "archivo": "sesiones/2026-11-02.json"
+  },
+  {
+   "lunes": "2026-11-09",
+   "semana": 5,
+   "fechas": "9-13 nov 2026",
+   "meso": 2,
+   "fase_nombre": "Base",
+   "archivo": "sesiones/2026-11-09.json"
   }
  ]
 }
