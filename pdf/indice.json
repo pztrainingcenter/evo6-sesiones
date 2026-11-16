@@ -89,6 +89,26 @@
      "bytes": 322442
     }
    ]
+  },
+  {
+   "lunes": "2026-11-16",
+   "semana": 6,
+   "fechas": "16-20 nov 2026",
+   "carpeta": "2026-11-16 · Semana 6 · 16-20 nov 2026",
+   "archivos": [
+    {
+     "nombre": "EVO6_fichas_entrenador_16-20nov2026.pdf",
+     "ruta": "pdf/2026-11-16/EVO6_fichas_entrenador_16-20nov2026.pdf",
+     "sha256": "ac7b3e6e8f92f1b49c23b4fe4c11bee16446389e3f68a0f7d82a289b8a39b123",
+     "bytes": 330847
+    },
+    {
+     "nombre": "EVO6_hojas_sala_16-20nov2026.pdf",
+     "ruta": "pdf/2026-11-16/EVO6_hojas_sala_16-20nov2026.pdf",
+     "sha256": "33210e4474e7e79fcf012dd0886988b5d70f3968cbf6dfa7a3d1534a414151cb",
+     "bytes": 294188
+    }
+   ]
   }
  ]
 }

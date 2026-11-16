@@ -1,0 +1,1719 @@
+{
+ "semana": 6,
+ "meso": 2,
+ "fase": 2,
+ "fase_nombre": "Acumulación",
+ "fechas": "16-20 nov 2026",
+ "lunes": "2026-11-16",
+ "dias": [
+  {
+   "fecha": "2026-11-16",
+   "dia": "Lunes 16 nov",
+   "tipo": "Power",
+   "nombre": "Circuito por parejas",
+   "bloque": "Densidad y desafíos",
+   "org_sala": "6 postas por parejas (1-2, 3-4, 5-6) · empezad y terminad a la vez",
+   "rondas": 3,
+   "posta_t": "1'20''",
+   "cambio": "30''",
+   "descanso": "1'45''",
+   "reto": "PAREJAS: empezad y terminad a la vez. En las postas 5 y 6, duelo de plancha. ¡Quien cae primero, anima!",
+   "obj_rend_sala": "Misma carga, 8 reps rápidas",
+   "obj_recomp_sala": "El 3.º sin parar",
+   "claves": [
+    {
+     "id": "p1e1",
+     "ej": "Press de banca con barra",
+     "dosis": "8 reps · RIR 2-3",
+     "clave": true,
+     "bas": "Press de banca con barra ligera (RIR 3)",
+     "av": "Press de banca con la carga de la semana pasada y pausa en el pecho (RIR 2)",
+     "reps": [
+      8,
+      8
+     ],
+     "rir": 2,
+     "seg": null,
+     "kg": true,
+     "medida": "reps",
+     "impl": "barra",
+     "posta": 1
+    },
+    {
+     "id": "p3e1",
+     "ej": "Sentadilla goblet con KB",
+     "dosis": "8 reps · RIR 2-3",
+     "clave": true,
+     "bas": "Sentadilla goblet con KB moderada (RIR 3)",
+     "av": "Sentadilla goblet con la KB de la semana pasada y pausa 1'' (RIR 2)",
+     "reps": [
+      8,
+      8
+     ],
+     "rir": 2,
+     "seg": null,
+     "kg": true,
+     "medida": "reps",
+     "impl": "kb",
+     "posta": 3
+    },
+    {
+     "id": "p5e1",
+     "ej": "Peso muerto convencional con barra",
+     "dosis": "8 reps · RIR 2-3",
+     "clave": true,
+     "bas": "Peso muerto con barra ligera desde discos altos (RIR 3)",
+     "av": "Peso muerto con la carga de la semana pasada (RIR 2)",
+     "reps": [
+      8,
+      8
+     ],
+     "rir": 2,
+     "seg": null,
+     "kg": true,
+     "medida": "reps",
+     "impl": "barra",
+     "posta": 5
+    }
+   ],
+   "postas": [
+    {
+     "n": 1,
+     "zona": "RACK + POLEAS + BANCO",
+     "ejercicios": [
+      {
+       "id": "p1e1",
+       "ej": "Press de banca con barra",
+       "dosis": "8 reps · RIR 2-3",
+       "clave": true,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        8,
+        8
+       ],
+       "rir": 2,
+       "seg": null,
+       "impl": "barra"
+      },
+      {
+       "id": "p1e2",
+       "ej": "Sentadilla sumo con mancuerna",
+       "dosis": "10 reps",
+       "clave": false,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        10,
+        10
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "mancuerna"
+      },
+      {
+       "id": "p1e3",
+       "ej": "Pallof press con banda",
+       "dosis": "5 reps c/lado",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        5,
+        5
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "otro"
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "zona": "TRX + DOMINADAS",
+     "ejercicios": [
+      {
+       "id": "p2e1",
+       "ej": "Dominada con agarre neutro",
+       "dosis": "6 reps",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        6,
+        6
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "otro"
+      },
+      {
+       "id": "p2e2",
+       "ej": "Peso muerto rumano con mancuernas",
+       "dosis": "8 reps",
+       "clave": false,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        8,
+        8
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "mancuernas"
+      },
+      {
+       "id": "p2e3",
+       "ej": "Plancha en TRX con rodilla al pecho",
+       "dosis": "6 reps",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        6,
+        6
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "otro"
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "zona": "KETTLEBELLS",
+     "ejercicios": [
+      {
+       "id": "p3e1",
+       "ej": "Sentadilla goblet con KB",
+       "dosis": "8 reps · RIR 2-3",
+       "clave": true,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        8,
+        8
+       ],
+       "rir": 2,
+       "seg": null,
+       "impl": "kb"
+      },
+      {
+       "id": "p3e2",
+       "ej": "Press de suelo con KB alterno",
+       "dosis": "6 reps c/lado",
+       "clave": false,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        6,
+        6
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "kb"
+      },
+      {
+       "id": "p3e3",
+       "ej": "Swing a 2 manos con KB",
+       "dosis": "12 reps",
+       "clave": false,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        12,
+        12
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "kb"
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "zona": "MANCUERNAS + BANDAS",
+     "ejercicios": [
+      {
+       "id": "p4e1",
+       "ej": "Sentadilla frontal con mancuernas",
+       "dosis": "8 reps",
+       "clave": false,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        8,
+        8
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "mancuernas"
+      },
+      {
+       "id": "p4e2",
+       "ej": "Jalón con banda de pie",
+       "dosis": "12 reps",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        12,
+        12
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "otro"
+      },
+      {
+       "id": "p4e3",
+       "ej": "Hollow rock con mancuerna",
+       "dosis": "15''",
+       "clave": false,
+       "kg": false,
+       "medida": "seg",
+       "reps": null,
+       "rir": null,
+       "seg": 15,
+       "impl": "mancuerna"
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "zona": "BARRA OLÍMPICA",
+     "ejercicios": [
+      {
+       "id": "p5e1",
+       "ej": "Peso muerto convencional con barra",
+       "dosis": "8 reps · RIR 2-3",
+       "clave": true,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        8,
+        8
+       ],
+       "rir": 2,
+       "seg": null,
+       "impl": "barra"
+      },
+      {
+       "id": "p5e2",
+       "ej": "Curl de bíceps con barra",
+       "dosis": "10 reps",
+       "clave": false,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        10,
+        10
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "barra"
+      },
+      {
+       "id": "p5e3",
+       "ej": "Plancha RKC",
+       "dosis": "20''",
+       "clave": false,
+       "kg": false,
+       "medida": "seg",
+       "reps": null,
+       "rir": null,
+       "seg": 20,
+       "impl": "barra"
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "zona": "BANDAS + ESTERILLAS",
+     "ejercicios": [
+      {
+       "id": "p6e1",
+       "ej": "Buenos días con banda",
+       "dosis": "10 reps",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        10,
+        10
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "otro"
+      },
+      {
+       "id": "p6e2",
+       "ej": "Face pull con banda y pausa",
+       "dosis": "12 reps",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        12,
+        12
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "otro"
+      },
+      {
+       "id": "p6e3",
+       "ej": "Plancha lateral",
+       "dosis": "20''",
+       "clave": false,
+       "kg": false,
+       "medida": "seg",
+       "reps": null,
+       "rir": null,
+       "seg": 20,
+       "impl": "otro"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "fecha": "2026-11-17",
+   "dia": "Martes 17 nov",
+   "tipo": "Power",
+   "nombre": "Fuerza desde el suelo",
+   "bloque": "Movimiento 3D",
+   "org_sala": "6 postas · 2'20'' por posta: trío a 40'' / 10'' · todo desde el suelo",
+   "rondas": 2,
+   "posta_t": "2'20''",
+   "cambio": "30''",
+   "descanso": "2'",
+   "reto": "CÁMARA LENTA: en la ronda 2, el ejercicio que cante el entrenador va a mitad de velocidad. ¡Control total!",
+   "obj_rend_sala": "Misma carga, subida rápida",
+   "obj_recomp_sala": "40'' completos, sin pausas",
+   "claves": [
+    {
+     "id": "p4e1",
+     "ej": "Hip thrust con mancuerna en banco",
+     "dosis": "8 reps · RIR 2-3",
+     "clave": true,
+     "bas": "Hip thrust con mancuerna ligera (RIR 3)",
+     "av": "Hip thrust con la mancuerna de la semana pasada y pausa 1'' (RIR 2)",
+     "reps": [
+      8,
+      8
+     ],
+     "rir": 2,
+     "seg": null,
+     "kg": true,
+     "medida": "reps",
+     "impl": "mancuerna",
+     "posta": 4
+    },
+    {
+     "id": "p4e2",
+     "ej": "Remo con mancuerna a 1 mano apoyado en banco",
+     "dosis": "8 reps c/lado · RIR 2-3",
+     "clave": true,
+     "bas": "Remo con mancuerna moderada (RIR 3)",
+     "av": "Remo pesado con pausa 1'' arriba (RIR 2)",
+     "reps": [
+      8,
+      8
+     ],
+     "rir": 2,
+     "seg": null,
+     "kg": true,
+     "medida": "reps",
+     "impl": "mancuerna",
+     "posta": 4
+    }
+   ],
+   "postas": [
+    {
+     "n": 1,
+     "zona": "ESTERILLAS + MANCUERNAS",
+     "ejercicios": [
+      {
+       "id": "p1e1",
+       "ej": "Dead bug con mancuerna",
+       "dosis": "6 reps c/lado",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        6,
+        6
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "mancuerna"
+      },
+      {
+       "id": "p1e2",
+       "ej": "Flexión con pausa abajo",
+       "dosis": "8 reps",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        8,
+        8
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "mancuernas"
+      },
+      {
+       "id": "p1e3",
+       "ej": "Puente de glúteo con mancuerna en el suelo",
+       "dosis": "12 reps",
+       "clave": false,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        12,
+        12
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "mancuerna"
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "zona": "TRX + DOMINADAS",
+     "ejercicios": [
+      {
+       "id": "p2e1",
+       "ej": "Superman con pausa",
+       "dosis": "10 reps",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        10,
+        10
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "otro"
+      },
+      {
+       "id": "p2e2",
+       "ej": "Remo en TRX con pies juntos",
+       "dosis": "10 reps",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        10,
+        10
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "otro"
+      },
+      {
+       "id": "p2e3",
+       "ej": "Curl femoral en TRX",
+       "dosis": "10 reps",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        10,
+        10
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "otro"
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "zona": "KETTLEBELLS",
+     "ejercicios": [
+      {
+       "id": "p3e1",
+       "ej": "Levantamiento turco con KB",
+       "dosis": "1 c/lado lento",
+       "clave": false,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        1,
+        1
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "kb"
+      },
+      {
+       "id": "p3e2",
+       "ej": "Zancada atrás con KB en rack",
+       "dosis": "4 reps c/lado",
+       "clave": false,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        4,
+        4
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "kb"
+      },
+      {
+       "id": "p3e3",
+       "ej": "Remo renegado con KB",
+       "dosis": "4 reps c/lado",
+       "clave": false,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        4,
+        4
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "kb"
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "zona": "BANCO + MANCUERNAS",
+     "ejercicios": [
+      {
+       "id": "p4e1",
+       "ej": "Hip thrust con mancuerna en banco",
+       "dosis": "8 reps · RIR 2-3",
+       "clave": true,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        8,
+        8
+       ],
+       "rir": 2,
+       "seg": null,
+       "impl": "mancuerna"
+      },
+      {
+       "id": "p4e2",
+       "ej": "Remo con mancuerna a 1 mano apoyado en banco",
+       "dosis": "8 reps c/lado · RIR 2-3",
+       "clave": true,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        8,
+        8
+       ],
+       "rir": 2,
+       "seg": null,
+       "impl": "mancuerna"
+      },
+      {
+       "id": "p4e3",
+       "ej": "Flexión declinada con pies en el banco",
+       "dosis": "8 reps",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        8,
+        8
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "mancuernas"
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "zona": "CÉSPED + BANDAS",
+     "ejercicios": [
+      {
+       "id": "p5e1",
+       "ej": "Gateo de cocodrilo",
+       "dosis": "20''",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": null,
+       "rir": null,
+       "seg": 20,
+       "impl": "otro"
+      },
+      {
+       "id": "p5e2",
+       "ej": "Remo con banda desde cuadrupedia",
+       "dosis": "8 reps c/lado",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        8,
+        8
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "otro"
+      },
+      {
+       "id": "p5e3",
+       "ej": "Puente de glúteo a 1 pierna",
+       "dosis": "8 reps c/lado",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        8,
+        8
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "otro"
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "zona": "MINIBANDS + ESTERILLAS",
+     "ejercicios": [
+      {
+       "id": "p6e1",
+       "ej": "Bird dog con pausa",
+       "dosis": "6 reps c/lado",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        6,
+        6
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "otro"
+      },
+      {
+       "id": "p6e2",
+       "ej": "Flexión con manos juntas",
+       "dosis": "8 reps",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        8,
+        8
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "otro"
+      },
+      {
+       "id": "p6e3",
+       "ej": "Abducción en concha con miniband",
+       "dosis": "12 reps c/lado",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        12,
+        12
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "otro"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "fecha": "2026-11-18",
+   "dia": "Miércoles 18 nov",
+   "tipo": "Metcon",
+   "nombre": "Tabata Sprint & Fuerza",
+   "bloque": "Metcon · TABATA",
+   "org_sala": "6 postas · 20'' a tope / 10'' pausa · sprint ↔ fuerza",
+   "rondas": 3,
+   "posta_t": "1'30''",
+   "cambio": "20''",
+   "descanso": "1'30''",
+   "reto": "TODO O NADA: en la ronda 3, cuando suene la palmada, el último intervalo a máximo absoluto.",
+   "obj_rend_sala": "Sprints al máximo",
+   "obj_recomp_sala": "Ritmo constante, suma reps",
+   "claves": [
+    {
+     "id": "p1e1",
+     "ej": "Air bike sprint",
+     "dosis": "20''",
+     "clave": true,
+     "bas": "Air bike a ritmo fuerte",
+     "av": "Air bike a máximo",
+     "reps": null,
+     "rir": null,
+     "seg": 20,
+     "kg": false,
+     "medida": "cal",
+     "impl": "mancuernas",
+     "posta": 1
+    },
+    {
+     "id": "p3e1",
+     "ej": "Thruster con 2 KB",
+     "dosis": "20''",
+     "clave": true,
+     "bas": "Thruster con 1 KB a 2 manos",
+     "av": "Thruster con 2 KB medias",
+     "reps": null,
+     "rir": null,
+     "seg": 20,
+     "kg": true,
+     "medida": "reps",
+     "impl": "kb2",
+     "posta": 3
+    }
+   ],
+   "postas": [
+    {
+     "n": 1,
+     "zona": "AIR BIKE + MANCUERNAS",
+     "ejercicios": [
+      {
+       "id": "p1e1",
+       "ej": "Air bike sprint",
+       "dosis": "20''",
+       "clave": true,
+       "kg": false,
+       "medida": "cal",
+       "reps": null,
+       "rir": null,
+       "seg": 20,
+       "impl": "mancuernas"
+      },
+      {
+       "id": "p1e2",
+       "ej": "Peso muerto con mancuernas",
+       "dosis": "20''",
+       "clave": false,
+       "kg": true,
+       "medida": "reps",
+       "reps": null,
+       "rir": null,
+       "seg": 20,
+       "impl": "mancuernas"
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "zona": "BATTLE ROPE + MANCUERNAS",
+     "ejercicios": [
+      {
+       "id": "p2e1",
+       "ej": "Battle rope ondas alternas",
+       "dosis": "20''",
+       "clave": false,
+       "kg": false,
+       "medida": "seg",
+       "reps": null,
+       "rir": null,
+       "seg": 20,
+       "impl": "mancuernas"
+      },
+      {
+       "id": "p2e2",
+       "ej": "Press de suelo con mancuernas",
+       "dosis": "20''",
+       "clave": false,
+       "kg": true,
+       "medida": "reps",
+       "reps": null,
+       "rir": null,
+       "seg": 20,
+       "impl": "mancuernas"
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "zona": "KETTLEBELLS + CÉSPED",
+     "ejercicios": [
+      {
+       "id": "p3e1",
+       "ej": "Thruster con 2 KB",
+       "dosis": "20''",
+       "clave": true,
+       "kg": true,
+       "medida": "reps",
+       "reps": null,
+       "rir": null,
+       "seg": 20,
+       "impl": "kb2"
+      },
+      {
+       "id": "p3e2",
+       "ej": "Burpee con salto",
+       "dosis": "20''",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": null,
+       "rir": null,
+       "seg": 20,
+       "impl": "kb"
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "zona": "SLAM BALL",
+     "ejercicios": [
+      {
+       "id": "p4e1",
+       "ej": "Slam ball",
+       "dosis": "20''",
+       "clave": false,
+       "kg": true,
+       "medida": "reps",
+       "reps": null,
+       "rir": null,
+       "seg": 20,
+       "impl": "bola"
+      },
+      {
+       "id": "p4e2",
+       "ej": "Pullover con slam ball",
+       "dosis": "20''",
+       "clave": false,
+       "kg": true,
+       "medida": "reps",
+       "reps": null,
+       "rir": null,
+       "seg": 20,
+       "impl": "bola"
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "zona": "CÉSPED",
+     "ejercicios": [
+      {
+       "id": "p5e1",
+       "ej": "Sprint en el sitio",
+       "dosis": "20''",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": null,
+       "rir": null,
+       "seg": 20,
+       "impl": "otro"
+      },
+      {
+       "id": "p5e2",
+       "ej": "Sentadilla con salto",
+       "dosis": "20''",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": null,
+       "rir": null,
+       "seg": 20,
+       "impl": "otro"
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "zona": "TRX + DOMINADAS",
+     "ejercicios": [
+      {
+       "id": "p6e1",
+       "ej": "Dominada con banda de asistencia",
+       "dosis": "20''",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": null,
+       "rir": null,
+       "seg": 20,
+       "impl": "otro"
+      },
+      {
+       "id": "p6e2",
+       "ej": "Jumping jacks",
+       "dosis": "20''",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": null,
+       "rir": null,
+       "seg": 20,
+       "impl": "otro"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "fecha": "2026-11-19",
+   "dia": "Jueves 19 nov",
+   "tipo": "Power",
+   "nombre": "Complejo TRX y mancuerna",
+   "bloque": "Flujo de implemento",
+   "org_sala": "6 postas · 50'' por posta: 3 ejercicios seguidos sin pausa",
+   "rondas": 4,
+   "posta_t": "50''",
+   "cambio": "30''",
+   "descanso": "1'40''",
+   "reto": "CRONÓMETRO: en la ronda 4, termina el complejo más rápido que en la ronda 3. ¡Con la misma técnica!",
+   "obj_rend_sala": "Misma carga, complejo limpio",
+   "obj_recomp_sala": "Encadena hasta el final",
+   "claves": [
+    {
+     "id": "p2e2",
+     "ej": "Press de hombro con mancuernas de pie",
+     "dosis": "8 reps · RIR 2-3",
+     "clave": true,
+     "bas": "Press de hombro con mancuernas ligeras (RIR 3)",
+     "av": "Press de hombro con la carga de la semana pasada (RIR 2)",
+     "reps": [
+      8,
+      8
+     ],
+     "rir": 2,
+     "seg": null,
+     "kg": true,
+     "medida": "reps",
+     "impl": "mancuernas",
+     "posta": 2
+    },
+    {
+     "id": "p4e1",
+     "ej": "Remo en polea baja con agarre neutro",
+     "dosis": "8 reps · RIR 2-3",
+     "clave": true,
+     "bas": "Remo con carga moderada (RIR 3)",
+     "av": "Remo con la carga de la semana pasada y pausa (RIR 2)",
+     "reps": [
+      8,
+      8
+     ],
+     "rir": 2,
+     "seg": null,
+     "kg": true,
+     "medida": "reps",
+     "impl": "polea",
+     "posta": 4
+    },
+    {
+     "id": "p6e1",
+     "ej": "Hip thrust en multipower",
+     "dosis": "8 reps · RIR 2-3",
+     "clave": true,
+     "bas": "Hip thrust con carga ligera (RIR 3)",
+     "av": "Hip thrust con la carga de la semana pasada y pausa 1'' (RIR 2)",
+     "reps": [
+      8,
+      8
+     ],
+     "rir": 2,
+     "seg": null,
+     "kg": true,
+     "medida": "reps",
+     "impl": "multipower",
+     "posta": 6
+    }
+   ],
+   "postas": [
+    {
+     "n": 1,
+     "zona": "TRX + DOMINADAS",
+     "ejercicios": [
+      {
+       "id": "p1e1",
+       "ej": "Remo en TRX con pausa",
+       "dosis": "6 reps",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        6,
+        6
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "otro"
+      },
+      {
+       "id": "p1e2",
+       "ej": "Face pull en TRX con rotación",
+       "dosis": "6 reps",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        6,
+        6
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "otro"
+      },
+      {
+       "id": "p1e3",
+       "ej": "Curl de bíceps en TRX",
+       "dosis": "6 reps",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        6,
+        6
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "otro"
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "zona": "MANCUERNAS · COMPLEJO A",
+     "ejercicios": [
+      {
+       "id": "p2e1",
+       "ej": "Zancada atrás con mancuernas",
+       "dosis": "3 reps c/lado",
+       "clave": false,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        3,
+        3
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "mancuernas"
+      },
+      {
+       "id": "p2e2",
+       "ej": "Press de hombro con mancuernas de pie",
+       "dosis": "8 reps · RIR 2-3",
+       "clave": true,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        8,
+        8
+       ],
+       "rir": 2,
+       "seg": null,
+       "impl": "mancuernas"
+      },
+      {
+       "id": "p2e3",
+       "ej": "Curl martillo con mancuernas",
+       "dosis": "6 reps",
+       "clave": false,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        6,
+        6
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "mancuernas"
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "zona": "MANCUERNA A 1 MANO · COMPLEJO B",
+     "ejercicios": [
+      {
+       "id": "p3e1",
+       "ej": "Remo con mancuerna a 1 mano",
+       "dosis": "5 reps c/lado",
+       "clave": false,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        5,
+        5
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "mancuerna"
+      },
+      {
+       "id": "p3e2",
+       "ej": "Press de hombro con mancuerna a 1 mano",
+       "dosis": "4 reps c/lado",
+       "clave": false,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        4,
+        4
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "mancuerna"
+      },
+      {
+       "id": "p3e3",
+       "ej": "Zancada cruzada con mancuerna",
+       "dosis": "2 reps c/lado",
+       "clave": false,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        2,
+        2
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "mancuerna"
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "zona": "RACK + POLEAS",
+     "ejercicios": [
+      {
+       "id": "p4e1",
+       "ej": "Remo en polea baja con agarre neutro",
+       "dosis": "8 reps · RIR 2-3",
+       "clave": true,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        8,
+        8
+       ],
+       "rir": 2,
+       "seg": null,
+       "impl": "polea"
+      },
+      {
+       "id": "p4e2",
+       "ej": "Extensión de tríceps en polea con cuerda",
+       "dosis": "10 reps",
+       "clave": false,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        10,
+        10
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "polea"
+      },
+      {
+       "id": "p4e3",
+       "ej": "Dead bug con banda",
+       "dosis": "3 reps c/lado",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        3,
+        3
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "otro"
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "zona": "KETTLEBELLS + ESTERILLAS",
+     "ejercicios": [
+      {
+       "id": "p5e1",
+       "ej": "Hip thrust con KB en el suelo",
+       "dosis": "8 reps",
+       "clave": false,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        8,
+        8
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "kb"
+      },
+      {
+       "id": "p5e2",
+       "ej": "Flexión con pies elevados",
+       "dosis": "8 reps",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        8,
+        8
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "kb"
+      },
+      {
+       "id": "p5e3",
+       "ej": "Escalador rápido",
+       "dosis": "10''",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": null,
+       "rir": null,
+       "seg": 10,
+       "impl": "kb"
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "zona": "MULTIPOWER + BANCO",
+     "ejercicios": [
+      {
+       "id": "p6e1",
+       "ej": "Hip thrust en multipower",
+       "dosis": "8 reps · RIR 2-3",
+       "clave": true,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        8,
+        8
+       ],
+       "rir": 2,
+       "seg": null,
+       "impl": "multipower"
+      },
+      {
+       "id": "p6e2",
+       "ej": "Flexión con manos en el banco",
+       "dosis": "8 reps",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        8,
+        8
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "multipower"
+      },
+      {
+       "id": "p6e3",
+       "ej": "Rodillas al pecho en el banco",
+       "dosis": "8 reps",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        8,
+        8
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "multipower"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "fecha": "2026-11-20",
+   "dia": "Viernes 20 nov",
+   "tipo": "Power",
+   "nombre": "Desafío de las 100",
+   "bloque": "Especiales",
+   "org_sala": "6 postas · 1'20'' por posta: carga → accesorio → reto de las 100",
+   "rondas": 3,
+   "posta_t": "1'20''",
+   "cambio": "30''",
+   "descanso": "1'45''",
+   "reto": "DESAFÍO DE LAS 100: en el último ejercicio de cada posta, suma 100 reps entre las 3 rondas (unas 33 por ronda).",
+   "obj_rend_sala": "Misma carga, reto en series",
+   "obj_recomp_sala": "Reto de un tirón",
+   "claves": [
+    {
+     "id": "p1e1",
+     "ej": "Sentadilla trasera",
+     "dosis": "8 reps · RIR 2-3",
+     "clave": true,
+     "bas": "Sentadilla trasera con barra ligera (RIR 3)",
+     "av": "Sentadilla trasera con la carga de la semana pasada (RIR 2)",
+     "reps": [
+      8,
+      8
+     ],
+     "rir": 2,
+     "seg": null,
+     "kg": true,
+     "medida": "reps",
+     "impl": "barra",
+     "posta": 1
+    },
+    {
+     "id": "p2e1",
+     "ej": "Peso muerto sumo con KB",
+     "dosis": "8 reps · RIR 2-3",
+     "clave": true,
+     "bas": "Peso muerto sumo con KB moderada (RIR 3)",
+     "av": "Peso muerto sumo con KB pesada (RIR 2)",
+     "reps": [
+      8,
+      8
+     ],
+     "rir": 2,
+     "seg": null,
+     "kg": true,
+     "medida": "reps",
+     "impl": "kb",
+     "posta": 2
+    },
+    {
+     "id": "p5e1",
+     "ej": "Press de banca en multipower",
+     "dosis": "8 reps · RIR 2-3",
+     "clave": true,
+     "bas": "Press de banca con carga ligera (RIR 3)",
+     "av": "Press de banca con la carga de la semana pasada (RIR 2)",
+     "reps": [
+      8,
+      8
+     ],
+     "rir": 2,
+     "seg": null,
+     "kg": true,
+     "medida": "reps",
+     "impl": "multipower",
+     "posta": 5
+    }
+   ],
+   "postas": [
+    {
+     "n": 1,
+     "zona": "RACK + POLEAS",
+     "ejercicios": [
+      {
+       "id": "p1e1",
+       "ej": "Sentadilla trasera",
+       "dosis": "8 reps · RIR 2-3",
+       "clave": true,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        8,
+        8
+       ],
+       "rir": 2,
+       "seg": null,
+       "impl": "barra"
+      },
+      {
+       "id": "p1e2",
+       "ej": "Jalón al pecho en polea",
+       "dosis": "8 reps",
+       "clave": false,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        8,
+        8
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "polea"
+      },
+      {
+       "id": "p1e3",
+       "ej": "Sentadilla al aire",
+       "dosis": "100 en 3 rondas",
+       "clave": false,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        100,
+        100
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "barra"
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "zona": "KETTLEBELLS",
+     "ejercicios": [
+      {
+       "id": "p2e1",
+       "ej": "Peso muerto sumo con KB",
+       "dosis": "8 reps · RIR 2-3",
+       "clave": true,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        8,
+        8
+       ],
+       "rir": 2,
+       "seg": null,
+       "impl": "kb"
+      },
+      {
+       "id": "p2e2",
+       "ej": "Press de suelo con 2 KB",
+       "dosis": "6 reps",
+       "clave": false,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        6,
+        6
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "kb2"
+      },
+      {
+       "id": "p2e3",
+       "ej": "Swing ruso con KB ligera",
+       "dosis": "100 en 3 rondas",
+       "clave": false,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        100,
+        100
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "kb"
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "zona": "MANCUERNAS + MINIBANDS",
+     "ejercicios": [
+      {
+       "id": "p3e1",
+       "ej": "Peso muerto rumano a 1 pierna con mancuerna",
+       "dosis": "5 reps c/lado",
+       "clave": false,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        5,
+        5
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "mancuerna"
+      },
+      {
+       "id": "p3e2",
+       "ej": "Elevación lateral con mancuernas",
+       "dosis": "10 reps",
+       "clave": false,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        10,
+        10
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "mancuernas"
+      },
+      {
+       "id": "p3e3",
+       "ej": "Elevación de gemelo con mancuernas",
+       "dosis": "100 en 3 rondas",
+       "clave": false,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        100,
+        100
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "mancuernas"
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "zona": "TRX + DOMINADAS",
+     "ejercicios": [
+      {
+       "id": "p4e1",
+       "ej": "Dominada supina",
+       "dosis": "6 reps",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        6,
+        6
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "otro"
+      },
+      {
+       "id": "p4e2",
+       "ej": "Sentadilla a 1 pierna asistida en TRX",
+       "dosis": "4 reps c/lado",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        4,
+        4
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "otro"
+      },
+      {
+       "id": "p4e3",
+       "ej": "Jalón rápido con banda en la barra",
+       "dosis": "100 en 3 rondas",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        100,
+        100
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "otro"
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "zona": "MULTIPOWER + BANCO",
+     "ejercicios": [
+      {
+       "id": "p5e1",
+       "ej": "Press de banca en multipower",
+       "dosis": "8 reps · RIR 2-3",
+       "clave": true,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        8,
+        8
+       ],
+       "rir": 2,
+       "seg": null,
+       "impl": "multipower"
+      },
+      {
+       "id": "p5e2",
+       "ej": "Step-up al banco con mancuerna en copa",
+       "dosis": "4 reps c/lado",
+       "clave": false,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        4,
+        4
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "mancuerna"
+      },
+      {
+       "id": "p5e3",
+       "ej": "Toques de hombro en plancha",
+       "dosis": "100 en 3 rondas",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        100,
+        100
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "multipower"
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "zona": "BATTLE ROPE + KETTLEBELLS",
+     "ejercicios": [
+      {
+       "id": "p6e1",
+       "ej": "Paseo del granjero con 2 KB",
+       "dosis": "15''",
+       "clave": false,
+       "kg": true,
+       "medida": "seg",
+       "reps": null,
+       "rir": null,
+       "seg": 15,
+       "impl": "kb2"
+      },
+      {
+       "id": "p6e2",
+       "ej": "Encogimiento con mancuernas",
+       "dosis": "10 reps",
+       "clave": false,
+       "kg": true,
+       "medida": "reps",
+       "reps": [
+        10,
+        10
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "mancuernas"
+      },
+      {
+       "id": "p6e3",
+       "ej": "Battle rope golpes alternos",
+       "dosis": "100 en 3 rondas",
+       "clave": false,
+       "kg": false,
+       "medida": "reps",
+       "reps": [
+        100,
+        100
+       ],
+       "rir": null,
+       "seg": null,
+       "impl": "kb"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
